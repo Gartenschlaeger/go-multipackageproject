@@ -1,7 +1,5 @@
 package lib
 
-import "fmt"
-
-func SayHello() {
-	fmt.Println("Hello")
+func Add(a int, b int) int {
+	return a + b
 }
